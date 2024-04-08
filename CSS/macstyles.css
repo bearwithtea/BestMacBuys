@@ -2,6 +2,20 @@ body {
     font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
 }
 
+#Mac {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+#macDescription {
+    position: relative;
+    width: 50%;
+    text-align: right;
+    padding-left: 800px
+}
+
 #line {
     position: relative;
 }
@@ -43,7 +57,7 @@ body {
 
 #m3pro {
     height: 300px;
-    width: 475px;
+    width: 400px;
     border-radius: 5%;
 }
 
@@ -51,4 +65,24 @@ body {
     height: 300px;
     width: 400px;
     border-radius: 5%;
+}
+
+#extrainfo {
+    text-align: center;
+}
+
+#line2 {
+    position: relative;
+}
+
+#line2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
 }
