@@ -86,3 +86,25 @@ body {
     border-bottom: 3px solid black;
     border-radius: 20%;
 }
+
+.otherproducts {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: -10% !important;
+    padding-left: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.otherproducts > div {
+    flex: 1 0 calc(100% / 3 - 10px); /* 100% divided by 3 (number of items per line) minus a little for margin */
+    margin-top: 50px; /* Add a little space around each item */
+}
+
+#airdescription {
+    font-weight: normal;
+    font-size: 18px;
+    width: 33%;
+}
