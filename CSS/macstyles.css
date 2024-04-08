@@ -1,0 +1,54 @@
+body {
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+#line {
+    position: relative;
+}
+
+#line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
+}
+
+.whofor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.whofor > div {
+    flex: 1;
+    text-align: center;
+}
+
+#80percent, #15percent, #5percent {
+    text-align: center;
+}
+
+#m2air {
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+#m3pro {
+    height: 300px;
+    width: 475px;
+    border-radius: 5%;
+}
+
+#macStudio {
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+}

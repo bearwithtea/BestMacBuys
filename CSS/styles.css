@@ -1,0 +1,117 @@
+body {
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#line {
+    position: relative;
+}
+
+#line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
+}
+
+#header-text-left, #header-text-right {
+    flex: 1; 
+    font-size: 200%;
+    color: black;
+    text-align: center; 
+}
+
+#header-photo {
+    flex: 0; 
+    width: 20%;
+}
+
+#left-bar {
+    font-size: 300%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#left-bar li {
+    list-style-type: none; 
+    margin-bottom: 18%;
+}
+
+#left-bar li a{
+    font-weight: bold;
+    text-decoration: none; 
+    color: inherit; 
+}
+
+#left-bar li a:visited {
+    color: inherit; 
+}
+
+#left-bar li a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+#left-bar li a:hover {
+    transform: scale(1.1);
+}
+
+#favoritesandnews-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#favorites, #applenews {
+    flex: 1;
+}
+
+#currentfavorite-container {
+    margin-left: 55%;
+    width: 55%;
+}
+
+#currentfavoriteheader {
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+#favorite-source {
+    font-size: 70%;
+    font-weight: lighter;
+}
+
+#currentfavorite-text {
+    font-size: 150%;
+}
+
+#applenewscontainer {
+    margin-left: 30%;
+    width: 55%;
+}
+
+#applenewsheader {
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+#articleonetext {
+    font-size: 150%;
+}
+
+#news-source {
+    font-size: 70%;
+    font-weight: lighter;
+}
