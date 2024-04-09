@@ -99,12 +99,25 @@ body {
 }
 
 .otherproducts > div {
-    flex: 1 0 calc(100% / 3 - 10px); /* 100% divided by 3 (number of items per line) minus a little for margin */
-    margin-top: 50px; /* Add a little space around each item */
+    flex: 1 0 calc(100% / 3 - 10px);
+    margin-top: 50px; 
+}
+
+#macbookair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #airdescription {
     font-weight: normal;
     font-size: 18px;
-    width: 33%;
+    margin-right: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+#macbookairphoto img {
+
 }
