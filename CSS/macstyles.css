@@ -110,14 +110,10 @@ body {
     align-items: flex-start;
 }
 
-#airdescription {
+#airdescription, #prodescription, #imacdescription, #macminidescription, #macstudiodescription, #macprodescription{
     font-weight: normal;
     font-size: 18px;
     margin-right: 10px;
-    width: 300px;
+    width: 400px;
     text-align: start;
-}
-
-#macbookairphoto img {
-
 }
