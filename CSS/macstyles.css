@@ -107,7 +107,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #airdescription {
@@ -115,7 +115,7 @@ body {
     font-size: 18px;
     margin-right: 10px;
     width: 300px;
-    text-align: left;
+    text-align: start;
 }
 
 #macbookairphoto img {
