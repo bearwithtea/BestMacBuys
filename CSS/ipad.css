@@ -1,0 +1,128 @@
+body {
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+#iPad {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+#iPadDescription {
+    position: relative;
+    width: 50%;
+    text-align: right;
+    padding-left: 800px
+}
+
+#line {
+    position: relative;
+}
+
+#line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
+}
+
+.whofor {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Change to stretch so each div takes full height */
+    width: 95%;
+    margin: auto;
+}
+
+.whofor > div {
+    display: flex; /* Make each div a flex container */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center; /* Center elements horizontally */
+    flex: 1;
+    text-align: center;
+}
+
+.description {
+    width: 400px;
+    font-size: 18px;
+}
+
+#80percentdiv, #15percentdiv, #5percentheader {
+    width: 400px; /* Set the width to match the images */
+}
+
+#ipad {
+    height: 450px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+#ipadair {
+    height: 450px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+#ipadpro {
+    height: 350px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+#extrainfo {
+    text-align: center;
+}
+
+#line2 {
+    position: relative;
+}
+
+#line2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    margin: auto;
+    border-bottom: 3px solid black;
+    border-radius: 20%;
+}
+
+.otherproducts {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: -10% !important;
+    padding-left: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.otherproducts > div {
+    flex: 1 0 calc(100% / 3 - 10px);
+    margin-top: 50px; 
+}
+
+#macbookair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#airdescription, #prodescription, #imacdescription, #macminidescription, #macstudiodescription, #macprodescription{
+    font-weight: normal;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 400px;
+    text-align: start;
+}
