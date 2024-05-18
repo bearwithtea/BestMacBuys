@@ -34,17 +34,15 @@ body {
 
 .whofor {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch; /* Change to stretch so each div takes full height */
+    align-items: stretch; 
     width: 95%;
     margin: auto;
 }
 
 .whofor > div {
-    display: flex; /* Make each div a flex container */
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: space-between; /* Distribute space between elements */
-    align-items: center; /* Center elements horizontally */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     flex: 1;
     text-align: center;
 }
@@ -54,14 +52,11 @@ body {
     font-size: 18px;
 }
 
-#80percentdiv, #15percentdiv, #5percentheader {
-    width: 400px; /* Set the width to match the images */
-}
-
 #ipad {
+    padding-bottom: 4%;
     height: 450px;
     width: 300px;
-    border-radius: 5%;
+    margin-top: -35px; 
 }
 
 #ipadair {
@@ -71,6 +66,8 @@ body {
 }
 
 #ipadpro {
+    padding-top: 10%;
+    padding-bottom: 12%;
     height: 350px;
     width: 300px;
     border-radius: 5%;
