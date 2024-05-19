@@ -116,7 +116,7 @@ body {
     align-items: flex-start;
 }
 
-#airdescription, #prodescription, #imacdescription, #macminidescription, #macstudiodescription, #macprodescription{
+#airdescription, #prodescription, #imacdescription, #macstudiodescription {
     font-weight: normal;
     font-size: 18px;
     margin-right: 10px;
